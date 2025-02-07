@@ -38,6 +38,7 @@ from pydantic_core import (
 )
 
 from backend.integrations.providers import ProviderName
+from backend.notifications.models import NotificationType
 from backend.util.settings import Secrets
 
 if TYPE_CHECKING:
